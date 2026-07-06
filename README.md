@@ -6,6 +6,10 @@ This repository contains data related to the publication entitled "Engineered Bi
   <img src="Repository%20Images/EBC_Nature.jpg" alt="EBC Nature" width="300">
 </p>
 
+<p align="center">
+  <sub><b>Figure 1.</b> Comparison of the CMU and Bricks datasets (left) and the EBC Nature dataset (right).</sub>
+</p>
+
 1. MicroCT Image Data: 
 These folders contain the raw MicroCT data for the 
 
