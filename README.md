@@ -27,3 +27,7 @@ This repository contains data related to the publication entitled "Engineered Bi
 
 ## MicroCT Image Data: 
 These folders contain the raw MicroCT data for the 
+
+<p align="center">
+  <img src="Repository%20Images/EBC_MicroCT.gif" alt="EBC Animation" width="600">
+</p>
