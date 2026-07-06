@@ -17,7 +17,7 @@ This repository contains data related to the publication entitled "Engineered Bi
 </p>
 
 <p align="center">
-  <sub><b>Figure 2.</b> <i>Representative EBC blocks and bricks manufactured and deployed in the field (shown here as a small garden wall in a landscape application).</sub>
+  <sub><b>Figure 2.</b> <i>Representative EBC blocks and bricks manufactured and deployed in the field (shown here as a small garden wall in a landscape application).</i></sub>
 </p>
 
 ## MicroCT Image Data: 
