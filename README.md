@@ -2,7 +2,7 @@
 This repository contains data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data (i.e., experimental results, microstructural data, etc.) that were used for our study. 
 
 <p align="center">
-  <img src="Repository%20Images/EBC_Overview_Image.png" alt="EBC Overview" width="800">
+  <img src="Repository%20Images/EBC_Overview_Image.png" alt="EBC Overview" width="1200">
 </p>
 
 <p align="center">
