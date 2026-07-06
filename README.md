@@ -1,5 +1,5 @@
 # Engineered Biopolymer Composite, an affordable carbon negative alternative to concrete
-This repository contains data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data (i.e., experimental results, microstructural data, etc.) that were used for our study. 
+This repository contains data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data (i.e., experimental results, microstructural data, etc.) that were used for our study. Additional data is included in our Supplementary Material file entitled, "Supplementary Material.pdf" , which goes into greater detail regarding the design, manufacture, experimental procedure, and techno-economic life cycle assessment conducted in the study.  
 
 <p align="center">
   <img src="Repository%20Images/EBC_Overview_Image.png" alt="EBC Overview" width="1000">
