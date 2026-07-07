@@ -42,3 +42,7 @@ This repository contains the raw and segmented images used in this study. The ra
 <p align="center">
   <img src="Repository%20Images/EBC_MicroCT.gif" alt="EBC Recycled" width="400">
 </p>
+
+<p align="center">
+  <sub><b>Figure 4.</b> <i>Segmented MicroCT images of recycled Engineered Biopolymer Composite manufactured with 5 MPa pre-compaction.</i></sub>
+</p>
