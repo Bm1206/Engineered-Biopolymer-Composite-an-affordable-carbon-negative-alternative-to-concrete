@@ -26,7 +26,7 @@ This repository contains data related to the publication entitled "Engineered Bi
 </p>
 
 ## MicroCT Image Data: 
-The internal structure of Engineered Biopolymer Composite (EBC) was examined using X-ray micro-computed tomography (microCT), which distinguishes regions of the specimen based on X-ray attenuation. Scans were acquired at a voxel size of $1.71~\mu$m using a Zeiss Versa XRM500 3D X-ray microscope operating at 60~kV and 7~W. With this image acquisition technique, we acquired approximately 1000 slice images through the central portion of the specimen to avoid edge artifacts. Segmentation of the resulting slice images into aggregate, biopolymer, and void regions was performed with Dragonfly, using a fully convolutional densely connected network (FC-DenseNet) for accurate voxel classification.
+The internal structure of Engineered Biopolymer Composite (EBC) was examined using X-ray micro-computed tomography (microCT), which distinguishes regions of the specimen based on X-ray attenuation. Scans were acquired at a voxel size of 1.71 μm using a Zeiss Versa XRM500 3D X-ray microscope operating at 60 kV and 7 W. With this image acquisition technique, we acquired approximately 1000 slice images through the central portion of the specimen to avoid edge artifacts. Segmentation of the resulting slice images into aggregate, biopolymer, and void regions was performed with Dragonfly, using a fully convolutional densely connected network (FC-DenseNet) for accurate voxel classification.
 
 <p align="center">
   <img src="Repository%20Images/EBC_Animation2.gif" alt="EBC 5MPa" width="400">
