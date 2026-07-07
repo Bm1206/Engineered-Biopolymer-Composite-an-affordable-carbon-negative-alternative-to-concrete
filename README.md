@@ -37,6 +37,8 @@ The internal structure of Engineered Biopolymer Composite (EBC) was examined usi
   <sub><b>Figure 3.</b> <i>Segmented MicroCT images of Engineered Biopolymer Composite manufactured with 5 MPa pre-compaction (left animation) and 30 MPa pre-compaction (right animation). The raw images were segmented into three distinct regions: aggregate (white, 255), biopolymer (grey, 151), and void (black, 0).</i></sub>
 </p>
 
+This repository contains the raw and segmented images used in this study. The raw images were segmented using Dragonfly, and the segmented images were used to calculate the statistical descriptors presented in this study. Additionally, the data for the recycled composite manufactured using 5 MPa pre-compaction are also provided in this repository, as shown below.
+
 <p align="center">
   <img src="Repository%20Images/EBC_MicroCT.gif" alt="EBC Recycled" width="400">
 </p>
