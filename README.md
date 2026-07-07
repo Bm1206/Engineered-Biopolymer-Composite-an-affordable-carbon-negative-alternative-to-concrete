@@ -2,7 +2,7 @@
 
 <p><b><i>Authors: Barney H. Miao (Stanford University), Andrew C. Lesh (Stanford University), Paul Hart (nano@stanford), Steven Song (Stanford University), David J. Loftus (NASA Ames Research Center), Michael D. Lepech (Stanford University)</i></b></p>
 
-Point of contact for questions about repository or paper: [barneym@stanford.edu](mailto:barneym@stanford.edu) :email::musical_note:
+Point of contact for questions about repository or paper: [barneym@stanford.edu](mailto:barneym@stanford.edu) :email:
 
 This repository contains data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data (i.e., experimental results, microstructural data, etc.) that were used for our study. Additional data is included in our Supplementary Material file entitled, "Supplementary Material.pdf" , which goes into greater detail regarding the design, manufacture, experimental procedure, and techno-economic life cycle assessment conducted in the study. Other data that is important to the paper is provided as Extended Data Figures and Extended Data Tables, which complement the main figures of the paper. 
 
