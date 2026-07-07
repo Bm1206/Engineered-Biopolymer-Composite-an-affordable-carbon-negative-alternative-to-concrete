@@ -27,8 +27,9 @@ This repository contains data related to the publication entitled "Engineered Bi
 
 ## Mechanical characterization of Engineered Biopolymer Composite: 
 
-Uniaxial compressive tests were conducted on finished specimens at a displacement rate of 0.02~mm/s using an MTS Criterion Model~43 testing apparatus. The ultimate compressive strength of each EBC mix design was recorded. Axial displacement was measured with three linear variable differential transformers (LVDTs) mounted on an aluminum fixture attached to the load cell platten, and these data were used to compute Young’s modulus. The below images show the 
+Uniaxial compressive tests were conducted on finished specimens at a displacement rate of 0.02 mm/s using an MTS Criterion Model~43 testing apparatus. The ultimate compressive strength of each EBC mix design was recorded. Axial displacement was measured with three linear variable differential transformers (LVDTs) mounted on an aluminum fixture attached to the load cell platten, and these data were used to compute Young’s modulus. For this study a total of 25 different mix designs were investigated, as summarized below in Table 1. 
 
+**Table 1.** *Mix designs of Engineered Biopolymer Composite investigated in this study.*
 | Mix | Lignin (%) | Methyl cellulose (%) | Compressive strength (MPa) | Density (g/cm³) | Modulus (MPa) | Dry bulk soil density (g/cm³) |
 |----:|-----------:|---------------------:|---------------------------:|----------------:|--------------:|------------------------------:|
 | 1  | 8.3  | 0.0 | 5.24 ± 0.72  | 1.65 ± 0.01 | 389 ± 51   | 1.53 ± 0.01 |
