@@ -1,10 +1,10 @@
-# Engineered Biopolymer Composite, an affordable carbon negative alternative to concrete :books: :earth_americas:
+# Engineered Biopolymer Composite, an affordable carbon negative alternative to concrete :books: :earth_americas: :file_folder:
 
 <p><b><i>Authors: Barney H. Miao (Stanford University), Andrew C. Lesh (Stanford University), Paul Hart (nano@stanford), Steven Song (Stanford University), David J. Loftus (NASA Ames Research Center), Michael D. Lepech (Stanford University)</i></b></p>
 
 This repository contains data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data (i.e., experimental results, microstructural data, etc.) that were used for our study. Additional data is included in our Supplementary Material file entitled, "Supplementary Material.pdf" , which goes into greater detail regarding the design, manufacture, experimental procedure, and techno-economic life cycle assessment conducted in the study.  
 
-# Premise of Study: 
+# Premise of Study: :seedling:
 
 <p align="center">
   <img src="Repository%20Images/EBC_Overview_Image.png" alt="EBC Overview" width="1000">
@@ -69,7 +69,7 @@ The repository includes experimental data from uniaxial compression testing and 
 | 24 | 8.4  | 3.6 | 26.11 ± 1.12 | 1.77 ± 0.02 | 2556 ± 380 | 1.58 ± 0.02 |
 | 25 | 6.0  | 6.5 | 29.71 ± 2.53 | 1.81 ± 0.02 | 2520 ± 448 | 1.58 ± 0.02 |
 
-## MicroCT Image Data: :mag:
+## MicroCT Image Data: :microscope: 
 The internal structure of Engineered Biopolymer Composite (EBC) was examined using X-ray micro-computed tomography (microCT), which distinguishes regions of the specimen based on X-ray attenuation. Scans were acquired at a voxel size of 1.71 μm using a Zeiss Versa XRM500 3D X-ray microscope operating at 60 kV and 7 W. With this image acquisition technique, we acquired approximately 1000 slice images through the central portion of the specimen to avoid edge artifacts. Segmentation of the resulting slice images into aggregate, biopolymer, and void regions was performed with Dragonfly, using a fully convolutional densely connected network (FC-DenseNet) for accurate voxel classification.
 
 <p align="center">
@@ -91,7 +91,7 @@ This repository contains the raw and segmented images used in this study. The ra
   <sub><b>Figure 5.</b> <i>Segmented MicroCT images of recycled Engineered Biopolymer Composite manufactured with 5 MPa pre-compaction.</i></sub>
 </p>
 
-## Scanning electron microscopy and Energy Dispersive Spectroscopy: 
+## Scanning electron microscopy and Energy Dispersive Spectroscopy: :mag:
 
 The repository includes scanning electron microscopy (SEM) images and energy-dispersive spectroscopy (EDS) elemental maps and spectra for Engineered Biopolymer COmpoiste (EBC) specimens. Samples were prepared through precision grinding, epoxy embedding, polishing, and cross-sectioning to produce high-quality surfaces for microstructural characterization. SEM imaging was perofmred using a Thermo Fisher Scientific Phenom Pharos field-emission scanning electron microscope under low-vacuum, low-voltage conditions to preserve the uncoated specimens and enhance the contrast between the biopolymer matrix and epoxy. EDS analysis was conducted to characterize the elemental composition and distribution within the EBC microstructure. 
 
