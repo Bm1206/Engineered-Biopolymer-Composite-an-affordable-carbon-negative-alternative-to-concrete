@@ -112,7 +112,7 @@ A cradle-to-gate life-cycle assessment (LCA) was performed to quantify the envir
 The overall impact was calculated as:
 
 $$
-Total Impact =
+Total%Impact =
 Transportation_{Imp.}
 +
 Electricity_{Imp.}
