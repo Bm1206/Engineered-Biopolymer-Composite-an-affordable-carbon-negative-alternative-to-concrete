@@ -25,7 +25,7 @@ This repository contains data related to the publication entitled "Engineered Bi
   <sub><b>Figure 2.</b> <i>Representative EBC blocks and bricks manufactured and deployed in the field (shown here as a small garden wall in a landscape application).</i></sub>
 </p>
 
-## Mechanical characterization of Engineered Biopolymer Composite: 
+## Mechanical characterization of Engineered Biopolymer Composite: :bricks:
 
 Engineered Biopolymer Composite achieves compressive strengths up to 35.4 MPa, tensile strengths of 3.33 MPa, and a Young’s modulus of 2.88 GPa, comparable to conventional concrete, while surpassing existing bio-based composites.
 
