@@ -111,7 +111,7 @@ A cradle-to-gate life-cycle assessment (LCA) was performed to quantify the envir
 
 The overall impact was calculated as:
 
-$$
+\[
 \text{Total Impact} =
 \text{Transportation}_{Imp.}
 +
@@ -120,7 +120,7 @@ $$
 \text{Solvent}_{Imp.}
 +
 \text{Biopolymer}_{Imp.}
-$$
+\]
 
 where:
 
@@ -142,7 +142,7 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 | Energy efficiency factor | 0.9 | -- |
 | | | |
 | **Scenario Definitions** | | |
-| Scenario 1: 15% recapture, lignin waste product | | |
+| Scenario 1: 50% recapture, lignin waste product | | |
 | Solvent recapture | 0.15 | -- |
 | Percent of biopolymer binder that is methyl cellulose | 0.1 | -- |
 | | | |
