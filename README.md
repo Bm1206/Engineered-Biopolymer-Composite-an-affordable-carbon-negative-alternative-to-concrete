@@ -25,6 +25,38 @@ This repository contains data related to the publication entitled "Engineered Bi
   <sub><b>Figure 2.</b> <i>Representative EBC blocks and bricks manufactured and deployed in the field (shown here as a small garden wall in a landscape application).</i></sub>
 </p>
 
+## Mechanical characterization of Engineered Biopolymer Composite: 
+
+Uniaxial compressive tests were conducted on finished specimens at a displacement rate of 0.02~mm/s using an MTS Criterion Model~43 testing apparatus. The ultimate compressive strength of each EBC mix design was recorded. Axial displacement was measured with three linear variable differential transformers (LVDTs) mounted on an aluminum fixture attached to the load cell platten, and these data were used to compute Young’s modulus. The below images show the 
+
+| Mix | Lignin (%) | Methyl cellulose (%) | Compressive strength (MPa) | Density (g/cm³) | Modulus (MPa) | Dry bulk soil density (g/cm³) |
+|----:|-----------:|---------------------:|---------------------------:|----------------:|--------------:|------------------------------:|
+| 1  | 8.3  | 0.0 | 5.24 ± 0.72  | 1.65 ± 0.01 | 389 ± 51   | 1.53 ± 0.01 |
+| 2  | 16.1 | 0.0 | 8.20 ± 0.66  | 1.87 ± 0.01 | 508 ± 110  | 1.61 ± 0.01 |
+| 3  | 7.5  | 0.8 | 10.08 ± 0.66 | 1.69 ± 0.01 | 889 ± 84   | 1.56 ± 0.01 |
+| 4  | 14.4 | 1.6 | 13.57 ± 1.30 | 1.85 ± 0.02 | 1283 ± 365 | 1.59 ± 0.02 |
+| 5  | 6.7  | 1.7 | 15.23 ± 0.58 | 1.69 ± 0.01 | 1217 ± 165 | 1.56 ± 0.01 |
+| 6  | 12.8 | 3.2 | 19.80 ± 1.34 | 1.84 ± 0.01 | 2142 ± 328 | 1.58 ± 0.01 |
+| 7  | 5.8  | 2.5 | 20.03 ± 1.48 | 1.71 ± 0.01 | 1444 ± 198 | 1.58 ± 0.01 |
+| 8  | 11.2 | 4.8 | 24.01 ± 3.16 | 1.88 ± 0.02 | 2194 ± 485 | 1.59 ± 0.01 |
+| 9  | 11.0 | 2.8 | 23.47 ± 0.75 | 1.80 ± 0.06 | 1850 ± 394 | 1.58 ± 0.05 |
+| 10 | 12.1 | 3.0 | 31.40 ± 3.60 | 1.83 ± 0.06 | 1891 ± 278 | 1.59 ± 0.06 |
+| 11 | 9.4  | 1.7 | 13.72 ± 1.59 | 1.78 ± 0.00 | 1059 ± 80  | 1.60 ± 0.00 |
+| 12 | 9.9  | 3.3 | 23.45 ± 2.81 | 1.79 ± 0.01 | 1632 ± 203 | 1.58 ± 0.01 |
+| 13 | 12.8 | 3.2 | 16.82 ± 2.62 | 1.81 ± 0.02 | 1568 ± 252 | 1.56 ± 0.01 |
+| 14 | 15.2 | 3.1 | 17.73 ± 3.95 | 1.83 ± 0.01 | 1244 ± 318 | 1.55 ± 0.01 |
+| 15 | 10.0 | 4.3 | 26.21 ± 2.54 | 1.84 ± 0.02 | 2136 ± 376 | 1.61 ± 0.01 |
+| 16 | 10.0 | 6.4 | 35.39 ± 0.51 | 1.81 ± 0.01 | 2542 ± 496 | 1.55 ± 0.01 |
+| 17 | 6.7  | 0.0 | 4.48 ± 1.36  | 1.67 ± 0.03 | 261 ± 94   | 1.56 ± 0.03 |
+| 18 | 6.7  | 0.5 | 5.96 ± 0.80  | 1.70 ± 0.02 | 397 ± 103  | 1.58 ± 0.02 |
+| 19 | 6.7  | 1.0 | 10.25 ± 0.61 | 1.73 ± 0.03 | 984 ± 176  | 1.61 ± 0.03 |
+| 20 | 6.7  | 3.0 | 23.24 ± 0.31 | 1.79 ± 0.03 | 1320 ± 308 | 1.62 ± 0.02 |
+| 21 | 4.9  | 6.7 | 32.06 ± 1.77 | 1.77 ± 0.02 | 2879 ± 484 | 1.59 ± 0.02 |
+| 22 | 6.7  | 6.7 | 24.77 ± 0.99 | 1.78 ± 0.01 | 1845 ± 348 | 1.57 ± 0.01 |
+| 23 | 6.7  | 3.8 | 28.86 ± 1.78 | 1.74 ± 0.01 | 2561 ± 514 | 1.58 ± 0.01 |
+| 24 | 8.4  | 3.6 | 26.11 ± 1.12 | 1.77 ± 0.02 | 2556 ± 380 | 1.58 ± 0.02 |
+| 25 | 6.0  | 6.5 | 29.71 ± 2.53 | 1.81 ± 0.02 | 2520 ± 448 | 1.58 ± 0.02 |
+
 ## MicroCT Image Data: 
 The internal structure of Engineered Biopolymer Composite (EBC) was examined using X-ray micro-computed tomography (microCT), which distinguishes regions of the specimen based on X-ray attenuation. Scans were acquired at a voxel size of 1.71 μm using a Zeiss Versa XRM500 3D X-ray microscope operating at 60 kV and 7 W. With this image acquisition technique, we acquired approximately 1000 slice images through the central portion of the specimen to avoid edge artifacts. Segmentation of the resulting slice images into aggregate, biopolymer, and void regions was performed with Dragonfly, using a fully convolutional densely connected network (FC-DenseNet) for accurate voxel classification.
 
