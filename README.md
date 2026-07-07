@@ -29,7 +29,7 @@ This repository contains data related to the publication entitled "Engineered Bi
 These folders contain the raw MicroCT data for the 
 
 <p align="center">
-  <img src="Repository%20Images/EBC_Animation2.gif" alt="EBC 5MPa" width="400">
-  <img src="Repository%20Images/EBC_Animation3.gif" alt="EBC 30 MPa" width="400">
-  <img src="Repository%20Images/EBC_MicroCT.gif" alt="EBC Recycled" width="400">
+  <img src="Repository%20Images/EBC_Animation2.gif" alt="EBC 5MPa" width="350">
+  <img src="Repository%20Images/EBC_Animation3.gif" alt="EBC 30 MPa" width="350">
+  <img src="Repository%20Images/EBC_MicroCT.gif" alt="EBC Recycled" width="350">
 </p>
