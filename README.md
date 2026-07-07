@@ -111,6 +111,14 @@ The repository includes scanning electron microscopy (SEM) images and energy-dis
 
 The repository includes life-cycle assessment (LCA) data evaluating the environmental impacts of Engineered Biopolymer Composite (EBC) compared with conventional concrete. A cradle-to-gate LCA was performed using SimaPro and the Impact 2002+ methodology to quantify impacts across multiple categories, including climate change, human health, ecosystem quality, and resource depletion. The analysis considers the contributions from raw material sourcing, transportation, electricity consumption during manufacturing, solvent use, and biopolymer production, while accounting for the carbon sequestration potential of lignin-based materials. The repository contains LCA input data, environmental impact results, and supporting analyses used to evaluate the carbon footprint and sustainability performance of EBC.
 
+<p align="center">
+  <img src="Repository%20Images/EBC_Sustainability_Image.png" alt="EBC LCA" width="700">
+</p>
+
+<p align="center">
+  <sub><b>Figure 6.</b> <i>Cradle-to-gate life cycle impacts and economic costs for manufacturing one cubic meter of Engineered Biopolymer Compoiste in comparison to concrete.</i></sub>
+</p>
+
 A cradle-to-gate life-cycle assessment (LCA) was performed to quantify the environmental impacts associated with the production of Engineered Biopolymer Composite (EBC). The total environmental impact was calculated by considering four primary contributions: transportation of raw materials, electricity consumption during manufacturing, solvent use, and biopolymer production. The carbon sequestration potential of lignin-based biopolymers was included as an environmental benefit.
 
 The overall impact was calculated as:
