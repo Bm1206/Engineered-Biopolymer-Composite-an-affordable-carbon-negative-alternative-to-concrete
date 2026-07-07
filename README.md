@@ -1,4 +1,4 @@
-# Engineered Biopolymer Composite, an affordable carbon negative alternative to concrete
+# Engineered Biopolymer Composite, an affordable carbon negative alternative to concrete :books: :earth_americas:
 
 <p><b><i>Authors: Barney H. Miao (Stanford University), Andrew C. Lesh (Stanford University), Paul Hart (nano@stanford), Steven Song (Stanford University), David J. Loftus (NASA Ames Research Center), Michael D. Lepech (Stanford University)</i></b></p>
 
