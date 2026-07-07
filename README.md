@@ -4,6 +4,8 @@
 
 Point of contact for questions about repository or paper: [barneym@stanford.edu](mailto:barneym@stanford.edu) :email:
 
+**For more detailed information please see** -->  [Supplementary Material.pdf](Supplementary%20Material.pdf) :page_facing_up:
+
 This repository contains data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data (i.e., experimental results, microstructural data, etc.) that were used for our study. Additional data is included in our Supplementary Material file entitled, "Supplementary Material.pdf" , which goes into greater detail regarding the design, manufacture, experimental procedure, and techno-economic life cycle assessment conducted in the study. Other data that is important to the paper is provided as Extended Data Figures and Extended Data Tables, which complement the main figures of the paper. 
 
 # Premise of Study: :seedling:
@@ -106,8 +108,6 @@ The repository includes scanning electron microscopy (SEM) images and energy-dis
 </p>
 
 ## Techno-economic and Life cycle assessment: :leaves:
-
-**For more detailed information please see** -->  [Supplementary Material.pdf](Supplementary%20Material.pdf) :page_facing_up:
 
 The repository includes life-cycle assessment (LCA) data evaluating the environmental impacts of Engineered Biopolymer Composite (EBC) compared with conventional concrete. A cradle-to-gate LCA was performed using SimaPro and the Impact 2002+ methodology to quantify impacts across multiple categories, including climate change, human health, ecosystem quality, and resource depletion. The analysis considers the contributions from raw material sourcing, transportation, electricity consumption during manufacturing, solvent use, and biopolymer production, while accounting for the carbon sequestration potential of lignin-based materials. The repository contains LCA input data, environmental impact results, and supporting analyses used to evaluate the carbon footprint and sustainability performance of EBC.
 
