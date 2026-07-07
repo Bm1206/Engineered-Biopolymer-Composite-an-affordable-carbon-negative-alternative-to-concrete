@@ -2,7 +2,7 @@
 
 <p><b><i>Authors: Barney H. Miao (Stanford University), Andrew C. Lesh (Stanford University), Paul Hart (nano@stanford), Steven Song (Stanford University), David J. Loftus (NASA Ames Research Center), Michael D. Lepech (Stanford University)</i></b></p>
 
-Point of contact for questions about repository or paper: [barneym@stanford.edu](mailto:barneym@stanford.edu) :email:
+**Point of contact for questions about repository or paper:** [barneym@stanford.edu](mailto:barneym@stanford.edu) :email:
 
 **For more detailed information please see** -->  [Supplementary Material.pdf](Supplementary%20Material.pdf) :page_facing_up:
 
