@@ -111,16 +111,9 @@ A cradle-to-gate life-cycle assessment (LCA) was performed to quantify the envir
 
 The overall impact was calculated as:
 
-\[
-\text{Total Impact} =
-\text{Transportation}_{Imp.}
-+
-\text{Electricity}_{Imp.}
-+
-\text{Solvent}_{Imp.}
-+
-\text{Biopolymer}_{Imp.}
-\]
+$$
+E = mc^2
+$$
 
 where:
 
