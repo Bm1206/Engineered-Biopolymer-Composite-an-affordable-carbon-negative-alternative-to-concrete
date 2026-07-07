@@ -30,7 +30,7 @@ This repository contains data related to the publication entitled "Engineered Bi
 The repository includes experimental data from uniaxial compression testing and digital image correlation (DIC) performed to characterize the mechanical properties of Engineered Biopolymer Composite (EBC). Compression tests were conducted using an MTS Criterion Model 43 testing system to determine ultimate compressive strength and Young's modulus. Full-field surface strain measurements were obtained using a Vic-3D DIC system, enabling calculation of axial and transverse strains, Young's modulus, and Poisson's ratio through synchronized image analysis and load measurements. These datasets provide a comprehensive characterization of the mechanical properties of Engineered Biopolymer Composite.
 
 <p align="center">
-  <img src="Repository%20Images/EBC_Specimen.png" alt="EBC specimen" width="350">
+  <img src="Repository%20Images/EBC_Specimen.png" alt="EBC specimen" width="200">
   <img src="Repository%20Images/EBC_DIC.gif" alt="EBC DIC" width="350">
 </p>
 
