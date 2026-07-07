@@ -96,7 +96,7 @@ This repository contains the raw and segmented images used in this study. The ra
 The repository includes scanning electron microscopy (SEM) images and energy-dispersive spectroscopy (EDS) elemental maps and spectra for Engineered Biopolymer COmpoiste (EBC) specimens. Samples were prepared through precision grinding, epoxy embedding, polishing, and cross-sectioning to produce high-quality surfaces for microstructural characterization. SEM imaging was perofmred using a Thermo Fisher Scientific Phenom Pharos field-emission scanning electron microscope under low-vacuum, low-voltage conditions to preserve the uncoated specimens and enhance the contrast between the biopolymer matrix and epoxy. EDS analysis was conducted to characterize the elemental composition and distribution within the EBC microstructure. 
 
 <p align="center">
-  <img src="Repository%20Images/SEM_EBC.jpg" alt="SEM Image" width="850">
+  <img src="Repository%20Images/SEM_EBC.jpg" alt="SEM Image" width="700">
 </p>
 
 <p align="center">
