@@ -102,3 +102,59 @@ The repository includes scanning electron microscopy (SEM) images and energy-dis
 <p align="center">
   <sub><b>Figure 5.</b> <i>Scanning electron microscope images of Engineered Biopolymer Composite.</i></sub>
 </p>
+
+## Techno-economic and Life cycle assessment: :leaves:
+
+The repository includes life-cycle assessment (LCA) data evaluating the environmental impacts of Engineered Biopolymer Composite (EBC) compared with conventional concrete. A cradle-to-gate LCA was performed using SimaPro and the Impact 2002+ methodology to quantify impacts across multiple categories, including climate change, human health, ecosystem quality, and resource depletion. The analysis considers the contributions from raw material sourcing, transportation, electricity consumption during manufacturing, solvent use, and biopolymer production, while accounting for the carbon sequestration potential of lignin-based materials. The repository contains LCA input data, environmental impact results, and supporting analyses used to evaluate the carbon footprint and sustainability performance of EBC.
+
+A cradle-to-gate life-cycle assessment (LCA) was performed to quantify the environmental impacts associated with the production of Engineered Biopolymer Composite (EBC). The total environmental impact was calculated by considering four primary contributions: transportation of raw materials, electricity consumption during manufacturing, solvent use, and biopolymer production. The carbon sequestration potential of lignin-based biopolymers was included as an environmental benefit.
+
+The overall impact was calculated as:
+
+\[
+\text{Total Impact} =
+\text{Transportation}_{Imp.}
++
+\text{Electricity}_{Imp.}
++
+\text{Solvent}_{Imp.}
++
+\text{Biopolymer}_{Imp.}
+\]
+
+where:
+
+- **Transportation impact** accounts for emissions associated with transporting lignin, methyl cellulose, and solvents from source locations to the manufacturing site.
+- **Electricity impact** represents the environmental burden from energy consumed during mixing and drying of EBC specimens.
+- **Solvent impact** includes the footprint associated with solvent production and use, with potential reductions from solvent recovery.
+- **Biopolymer impact** accounts for the production impacts of lignin and methyl cellulose while subtracting the carbon stored within the biopolymer matrix.
+
+The LCA was performed using **SimaPro** with the **Impact 2002+** method, which evaluates environmental impacts across categories including climate change, human health, ecosystem quality, and resource depletion.
+
+**Table 2.** *Life-cycle assessment (LCA) inputs used for the average global scenario.*
+
+| Parameter | Value | Units |
+|---|---:|---|
+| Density of EBC | 1805 | kg/m³ |
+| Density of concrete | 2400 | kg/m³ |
+| EBC compressive strength | 35 | MPa |
+| Concrete compressive strength | 20 | MPa |
+| Energy efficiency factor | 0.9 | -- |
+| | | |
+| **Scenario Definitions** | | |
+| Scenario 1: 15% recapture, lignin waste product | | |
+| Solvent recapture | 0.15 | -- |
+| Percent of biopolymer binder that is methyl cellulose | 0.1 | -- |
+| | | |
+| Scenario 2: 0% recapture, lignin main product | | |
+| Percent recapture | 1.0 | -- |
+| Lignin allocation factor | 1.0 | -- |
+| | | |
+| **Material and Energy Inputs for 1 kg of EBC** | | |
+| Acetic acid | 0.10714275 | kg |
+| Electricity (oven) | 0.004622222 | kWh |
+| Electricity (mixing) | 0.048148148 | kWh |
+| Total electricity | 0.05277037 | kWh |
+| Lignin | 0.148148 | kg |
+| Transportation | 0.255340298 | tkm |
+| Water | 0.0357143 | kg |
