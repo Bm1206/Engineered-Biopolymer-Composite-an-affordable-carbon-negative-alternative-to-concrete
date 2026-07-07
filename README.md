@@ -95,6 +95,8 @@ This repository contains the raw and segmented images used in this study. The ra
   <sub><b>Figure 5.</b> <i>Segmented MicroCT images of recycled Engineered Biopolymer Composite manufactured with 5 MPa pre-compaction.</i></sub>
 </p>
 
+**Note: The segmented images provided in the repository are 256x256 sized images. To calculate the statistical descriptors please download all the segmented "chunks" from each folder and concatenate them into a single stack. Otherwise, you can run the code for calculating the statistical descriptors by simply running the provided code on these images.**
+
 ## Scanning electron microscopy and Energy Dispersive Spectroscopy: :mag:
 
 The repository includes scanning electron microscopy (SEM) images and energy-dispersive spectroscopy (EDS) elemental maps and spectra for Engineered Biopolymer COmpoiste (EBC) specimens. Samples were prepared through precision grinding, epoxy embedding, polishing, and cross-sectioning to produce high-quality surfaces for microstructural characterization. SEM imaging was perofmred using a Thermo Fisher Scientific Phenom Pharos field-emission scanning electron microscope under low-vacuum, low-voltage conditions to preserve the uncoated specimens and enhance the contrast between the biopolymer matrix and epoxy. EDS analysis was conducted to characterize the elemental composition and distribution within the EBC microstructure. 
