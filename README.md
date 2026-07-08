@@ -173,3 +173,13 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 | Lignin | 0.148148 | kg |
 | Transportation | 0.255340298 | tkm |
 | Water | 0.0357143 | kg |
+
+## Code provided in repository: :computer:
+
+```python
+def greet(name):
+    message = f"Hello, {name}"
+    print(message)
+```
+
+
