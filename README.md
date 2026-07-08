@@ -178,6 +178,7 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 
 <u><strong>Calculating statistical descriptors from MicroCT data</strong></u>
 
+**This description refers to the script** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py) 
 To quantitatively characterize the spatial structure of the composite materials, we employed two statistical descriptors derived from stochastic geometry: the lineal path function and the two-point probability function. The lineal path (LP) function describes the probability that a randomly placed line segment lies entirely within a single region, and is used to characterize the size, distribution, and connectivity of regions in heterogeneous materials. Calculations were performed for the aggregate, biopolymer, and void regions. The two-point (TP) probability function was used to describe the spatial arrangement of EBC constituents at each level of pre-compaction. Calculations were performed for aggregate–biopolymer, aggregate–aggregate, and void–void pairs.
 
 Using the segmented images, the code "" calculates the statistical descriptors for this study. To calculate the six different descriptors (three lineal path and three two-point probability), users need to first define the voxel resolution of the MicroCT scan in the following block of code in the script.
@@ -215,3 +216,5 @@ By running the code, you will see the following output
 Loaded remapped image: 30_MPa_output_3d_256x256_comb_remapped_chunk_001.tif, shape=(384, 256, 256)
 Unique values: [  0 151 255]
 ```
+Processing slice 1/384... done
+Processing slice 2/384... 
