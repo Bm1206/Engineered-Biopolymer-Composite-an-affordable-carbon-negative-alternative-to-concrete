@@ -176,7 +176,7 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 
 ## Code provided in repository: :computer:
 
-<u><strong>Calculating statistical descriptors from MicroCT data</strong></u>
+### Calculating statistical descriptors from MicroCT data
 
 **This description refers to the script** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
 
