@@ -176,7 +176,7 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 
 ## Code provided in repository: :computer:
 
-<u><strong>Statistical Descriptors</strong></u>
+<u><strong>Calculating statistical descriptors from MicroCT data</strong></u>
 
 To quantitatively characterize the spatial structure of the composite materials, we employed two statistical descriptors derived from stochastic geometry: the lineal path function and the two-point probability function. The lineal path (LP) function describes the probability that a randomly placed line segment lies entirely within a single region, and is used to characterize the size, distribution, and connectivity of regions in heterogeneous materials. Calculations were performed for the aggregate, biopolymer, and void regions. The two-point (TP) probability function was used to describe the spatial arrangement of EBC constituents at each level of pre-compaction. Calculations were performed for aggregate–biopolymer, aggregate–aggregate, and void–void pairs.
 
