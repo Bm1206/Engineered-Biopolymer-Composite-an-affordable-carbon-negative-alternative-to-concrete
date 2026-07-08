@@ -97,7 +97,7 @@ This repository contains the raw and segmented images used in this study. The ra
 
 **Note: The segmented images provided in the repository are 256x256 sized images. To calculate the statistical descriptors please download all the segmented "chunks" from each folder and concatenate them into a single stack. Otherwise, you can run the code for calculating the statistical descriptors by simply running the provided code on these images.**
 
-## Scanning electron microscopy and Energy Dispersive Spectroscopy: :mag:
+## Scanning electron microscopy and Energy Dispersive Spectroscopy: 
 
 The repository includes scanning electron microscopy (SEM) images and energy-dispersive spectroscopy (EDS) elemental maps and spectra for Engineered Biopolymer COmpoiste (EBC) specimens. Samples were prepared through precision grinding, epoxy embedding, polishing, and cross-sectioning to produce high-quality surfaces for microstructural characterization. SEM imaging was perofmred using a Thermo Fisher Scientific Phenom Pharos field-emission scanning electron microscope under low-vacuum, low-voltage conditions to preserve the uncoated specimens and enhance the contrast between the biopolymer matrix and epoxy. EDS analysis was conducted to characterize the elemental composition and distribution within the EBC microstructure. 
 
@@ -109,7 +109,7 @@ The repository includes scanning electron microscopy (SEM) images and energy-dis
   <sub><b>Figure 5.</b> <i>Scanning electron microscope images of Engineered Biopolymer Composite.</i></sub>
 </p>
 
-## Techno-economic and Life cycle assessment: :leaves:
+## Techno-economic and Life cycle assessment: 
 
 The repository includes life-cycle assessment (LCA) data evaluating the environmental impacts of Engineered Biopolymer Composite (EBC) compared with conventional concrete. A cradle-to-gate LCA was performed using SimaPro and the Impact 2002+ methodology to quantify impacts across multiple categories, including climate change, human health, ecosystem quality, and resource depletion. The analysis considers the contributions from raw material sourcing, transportation, electricity consumption during manufacturing, solvent use, and biopolymer production, while accounting for the carbon sequestration potential of lignin-based materials. The repository contains LCA input data, environmental impact results, and supporting analyses used to evaluate the carbon footprint and sustainability performance of EBC. In addition, the repository includes code that was used to calculate the carbon footprint worldwide, resulting in Figure 4 in the paper. 
 
@@ -136,7 +136,6 @@ Solvent_{Imp.}
 Biopolymer_{Imp.}
 $$
 
-
 where:
 
 - **Transportation impact** accounts for emissions associated with transporting lignin, methyl cellulose, and solvents from source locations to the manufacturing site.
@@ -144,7 +143,7 @@ where:
 - **Solvent impact** includes the footprint associated with solvent production and use, with potential reductions from solvent recovery.
 - **Biopolymer impact** accounts for the production impacts of lignin and methyl cellulose while subtracting the carbon stored within the biopolymer matrix.
 
-The LCA was performed using **SimaPro** with the **Impact 2002+** method, which evaluates environmental impacts across categories including climate change, human health, ecosystem quality, and resource depletion.
+The LCA was performed using **SimaPro V.2015** with the **Impact 2002+** method, which evaluates environmental impacts across categories including climate change, human health, ecosystem quality, and resource depletion.
 
 **Table 2.** *Life-cycle assessment (LCA) inputs used for the average global scenario.*
 
@@ -167,7 +166,7 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 | Transportation | 0.255340298 | tkm |
 | Water | 0.0357143 | kg |
 
-## Code provided in repository: :computer:
+## Code provided in repository: 
 
 In this repository, three different scripts have been provided for the following purposes: 
 
@@ -191,7 +190,7 @@ The code script loads in "", which contains the compressive strength of all test
 
 To quantitatively characterize the spatial structure of the composite materials, we employed two statistical descriptors derived from stochastic geometry: the lineal path function and the two-point probability function. The lineal path (LP) function describes the probability that a randomly placed line segment lies entirely within a single region, and is used to characterize the size, distribution, and connectivity of regions in heterogeneous materials. Calculations were performed for the aggregate, biopolymer, and void regions. The two-point (TP) probability function was used to describe the spatial arrangement of EBC constituents at each level of pre-compaction. Calculations were performed for aggregate–biopolymer, aggregate–aggregate, and void–void pairs.
 
-Using the segmented images, the code "" calculates the statistical descriptors for this study. To calculate the six different descriptors (three lineal path and three two-point probability), users need to first define the voxel resolution of the MicroCT scan in the following block of code in the script.
+Using the segmented images (using the images under the Segmented Image Data folder), the code calculates the statistical descriptors for this study. To calculate the six different descriptors (three lineal path and three two-point probability), users need to first define the voxel resolution of the MicroCT scan in the following block of code in the script.
 
 ```python
 voxel_size = 1.71  # micrometers per voxel
@@ -206,7 +205,7 @@ Next, change the filepath to the images that you would like to calculate the des
 
 datasets = {
     "30 MPa data": {
-        "path": "30_MPa_output_3d_256x256_comb_remapped.tif"
+        "path": "30_MPa_output_3d_256x256_comb_remapped_chunk_001.tif"
     }
 }
 ```
