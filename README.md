@@ -111,7 +111,7 @@ The repository includes scanning electron microscopy (SEM) images and energy-dis
 
 ## Techno-economic and Life cycle assessment: :leaves:
 
-The repository includes life-cycle assessment (LCA) data evaluating the environmental impacts of Engineered Biopolymer Composite (EBC) compared with conventional concrete. A cradle-to-gate LCA was performed using SimaPro and the Impact 2002+ methodology to quantify impacts across multiple categories, including climate change, human health, ecosystem quality, and resource depletion. The analysis considers the contributions from raw material sourcing, transportation, electricity consumption during manufacturing, solvent use, and biopolymer production, while accounting for the carbon sequestration potential of lignin-based materials. The repository contains LCA input data, environmental impact results, and supporting analyses used to evaluate the carbon footprint and sustainability performance of EBC.
+The repository includes life-cycle assessment (LCA) data evaluating the environmental impacts of Engineered Biopolymer Composite (EBC) compared with conventional concrete. A cradle-to-gate LCA was performed using SimaPro and the Impact 2002+ methodology to quantify impacts across multiple categories, including climate change, human health, ecosystem quality, and resource depletion. The analysis considers the contributions from raw material sourcing, transportation, electricity consumption during manufacturing, solvent use, and biopolymer production, while accounting for the carbon sequestration potential of lignin-based materials. The repository contains LCA input data, environmental impact results, and supporting analyses used to evaluate the carbon footprint and sustainability performance of EBC. In addition, the repository includes code that was used to calculate the carbon footprint worldwide, resulting in Figure 4 in the paper. 
 
 <p align="center">
   <img src="Repository%20Images/EBC_Sustainability_Image.png" alt="EBC LCA" width="800">
@@ -225,4 +225,10 @@ Processing slice 2/384...
 
 ***This description refers to the script*** → [World_Map_EBC.py](Code/LCA%20Map/World_Map_EBC.py)
 
-To calculate the carbon footprint associated with manufacturing EBC globally, the 
+To calculate the carbon footprint associated with manufacturing EBC globally, the script loads in the distances (calculated based on the locations) for transporting lignin and methyl cellulose. This script also plots Figure 4 in the paper. 
+
+The following block of code in the script reflects equation as described in the Supplementary Material that was used to compute the carbon footprint of manufacturing EBC in the world.
+
+'''python
+Footprint = ((distances_L * 0.148148/1000*0.9 + distances_C * 0.148148/1000*0.1) * 0.195682 + 0.059703704 * Energy_Factors+ 0.142857 * 1.184 *(1-(0.5*0.85)) + 0.10 * 0.118 * 0.710737 *1.0 - 2.2*0.1037036 - 1.6*0.0444 )/scale_factor*1805
+'''
