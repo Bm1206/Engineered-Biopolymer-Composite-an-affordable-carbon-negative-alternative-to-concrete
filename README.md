@@ -118,7 +118,7 @@ The repository includes life-cycle assessment (LCA) data evaluating the environm
 </p>
 
 <p align="center">
-  <sub><b>Figure 6.</b> <i>Cradle-to-gate life cycle impacts and economic costs for manufacturing one cubic meter of Engineered Biopolymer Compoiste in comparison to concrete.</i></sub>
+  <sub><b>Figure 6.</b> <i>Cradle-to-gate life cycle impacts and economic costs for manufacturing one cubic meter of Engineered Biopolymer Composite in comparison to concrete.</i></sub>
 </p>
 
 A cradle-to-gate life-cycle assessment (LCA) was performed to quantify the environmental impacts associated with the production of Engineered Biopolymer Composite (EBC). The total environmental impact was calculated by considering four primary contributions: transportation of raw materials, electricity consumption during manufacturing, solvent use, and biopolymer production. The carbon sequestration potential of lignin-based biopolymers was included as an environmental benefit.
