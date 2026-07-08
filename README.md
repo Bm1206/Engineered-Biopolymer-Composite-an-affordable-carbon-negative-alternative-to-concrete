@@ -169,13 +169,16 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 
 ## Code provided in repository: :computer:
 
-In this repository, three different scripts have been provided for the following purposes. 
+In this repository, three different scripts have been provided for the following purposes: 
 
 1. Developing the Design guide predicting compressive strength of Engineered Biopolymer Composite (Figure 2 d)
 2. Calculating the statistical descriptors from segemented microCT images
-3. Calculating the carbon footprint of manufacturing EBC worldwide. 
+3. Calculating the carbon footprint of manufacturing EBC worldwide.
+   
+### 1. Developing the design guide for predicing compressive strength of EBC
 
-### Calculating statistical descriptors from MicroCT data
+
+### 2. Calculating statistical descriptors from MicroCT data
 
 ***This description refers to the script*** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
 
@@ -218,3 +221,8 @@ Unique values: [  0 151 255]
 Processing slice 1/384... done
 Processing slice 2/384... 
 ```
+### 3. Calculating the worldwide carbon footprint for manufacturing EBC
+
+***This description refers to the script*** → [World_Map_EBC.py](Code/LCA%20Map/World_Map_EBC.py)
+
+To calculate the carbon footprint associated with manufacturing EBC globally, the 
