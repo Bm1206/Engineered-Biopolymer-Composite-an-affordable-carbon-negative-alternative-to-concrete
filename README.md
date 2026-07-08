@@ -204,7 +204,7 @@ The current script will go through each image/slice in the 3D tiff that is loade
 
 ```python
     # Slice selection
-    slice_indices = list(range(0, num_slices, 1))
+    slice_indices = list(range(0, num_slices, x)) # <-- Please change x to the number of slices you want to analyze by, e.g., if you want each slice x=1 
     if (num_slices - 1) not in slice_indices:
         slice_indices.append(num_slices - 1)
 ```
