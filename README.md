@@ -232,3 +232,4 @@ The following block of code in the script reflects equation as described in the 
 ```python
 Footprint = ((distances_L * 0.148148/1000*0.9 + distances_C * 0.148148/1000*0.1) * 0.195682 + 0.059703704 * Energy_Factors+ 0.142857 * 1.184 *(1-(0.5*0.85)) + 0.10 * 0.118 * 0.710737 *1.0 - 2.2*0.1037036 - 1.6*0.0444 )/scale_factor*1805
 ```
+Using "" 
