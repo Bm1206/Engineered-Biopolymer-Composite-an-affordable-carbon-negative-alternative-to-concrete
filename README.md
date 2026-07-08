@@ -176,8 +176,7 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 
 ## Code provided in repository: :computer:
 
-<u>Statistical descriptors</u>
-
+<u><strong>Statistical Descriptors</strong></u>
 ```python
 def greet(name):
     message = f"Hello, {name}"
