@@ -176,6 +176,12 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 
 ## Code provided in repository: :computer:
 
+In this repository, three different scripts have been provided for the following purposes. 
+
+1. Developing the Design guide predicting compressive strength of Engineered Biopolymer Composite (Figure 2 d)
+2. Calculating the statistical descriptors from segemented microCT images
+3. Calculating the carbon footprint of manufacturing EBC worldwide. 
+
 ### Calculating statistical descriptors from MicroCT data
 
 ***This description refers to the script*** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
@@ -216,6 +222,6 @@ By running the code, you will see the following output
 --- Processing 30 MPa data-1 ---
 Loaded remapped image: 30_MPa_output_3d_256x256_comb_remapped_chunk_001.tif, shape=(384, 256, 256)
 Unique values: [  0 151 255]
-```
 Processing slice 1/384... done
 Processing slice 2/384... 
+```
