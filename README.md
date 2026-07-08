@@ -4,7 +4,7 @@
 
 **Point of contact for questions about repository or paper:** [barneym@stanford.edu](mailto:barneym@stanford.edu) :email:
 
-**For more detailed information please see** -->  [Supplementary Material.pdf](Supplementary%20Material.pdf) :page_facing_up:
+***For more detailed information please see*** -->  [Supplementary Material.pdf](Supplementary%20Material.pdf) :page_facing_up:
 
 This repository contains data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data (i.e., experimental results, microstructural data, etc.) that were used for our study. Additional data is included in our Supplementary Material file entitled, "Supplementary Material.pdf" , which goes into greater detail regarding the design, manufacture, experimental procedure, and techno-economic life cycle assessment conducted in the study. Other data that is important to the paper is provided as Extended Data Figures and Extended Data Tables, which complement the main figures of the paper. 
 
@@ -176,9 +176,9 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 
 ## Code provided in repository: :computer:
 
-<span style="text-decoration: underline;"><strong>Calculating statistical descriptors from MicroCT data</strong></span>
+### Calculating statistical descriptors from MicroCT data
 
-**This description refers to the script** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
+***This description refers to the script*** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
 
 To quantitatively characterize the spatial structure of the composite materials, we employed two statistical descriptors derived from stochastic geometry: the lineal path function and the two-point probability function. The lineal path (LP) function describes the probability that a randomly placed line segment lies entirely within a single region, and is used to characterize the size, distribution, and connectivity of regions in heterogeneous materials. Calculations were performed for the aggregate, biopolymer, and void regions. The two-point (TP) probability function was used to describe the spatial arrangement of EBC constituents at each level of pre-compaction. Calculations were performed for aggregate–biopolymer, aggregate–aggregate, and void–void pairs.
 
