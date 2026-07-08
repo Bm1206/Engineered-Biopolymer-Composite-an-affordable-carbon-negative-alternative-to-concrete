@@ -155,15 +155,8 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 | EBC compressive strength | 35 | MPa |
 | Concrete compressive strength | 20 | MPa |
 | Energy efficiency factor | 0.9 | -- |
-| | | |
-| **Scenario Definitions** | | |
-| Scenario 1: 50% recapture, lignin waste product | | |
 | Solvent recapture | 0.15 | -- |
 | Percent of biopolymer binder that is methyl cellulose | 0.1 | -- |
-| | | |
-| Scenario 2: 0% recapture, lignin main product | | |
-| Percent recapture | 1.0 | -- |
-| Lignin allocation factor | 1.0 | -- |
 | | | |
 | **Material and Energy Inputs for 1 kg of EBC** | | |
 | Acetic acid | 0.10714275 | kg |
