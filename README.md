@@ -177,10 +177,34 @@ The LCA was performed using **SimaPro** with the **Impact 2002+** method, which 
 ## Code provided in repository: :computer:
 
 <u><strong>Statistical Descriptors</strong></u>
+
+To quantitatively characterize the spatial structure of the composite materials, we employed two statistical descriptors derived from stochastic geometry: the lineal path function and the two-point probability function. The lineal path (LP) function describes the probability that a randomly placed line segment lies entirely within a single region, and is used to characterize the size, distribution, and connectivity of regions in heterogeneous materials. Calculations were performed for the aggregate, biopolymer, and void regions. The two-point (TP) probability function was used to describe the spatial arrangement of EBC constituents at each level of pre-compaction. Calculations were performed for aggregate–biopolymer, aggregate–aggregate, and void–void pairs.
+
+Using the segmented images, the code "" calculates the statistical descriptors for this study. To calculate the six different descriptors (three lineal path and three two-point probability), users need to first define the voxel resolution of the MicroCT scan in the following block of code in the script.
+
 ```python
-def greet(name):
-    message = f"Hello, {name}"
-    print(message)
+voxel_size = 1.71  # micrometers per voxel
 ```
 
+Next, change the filepath to the images that you would like to calculate the descriptors for. The script assumes that the images are fully segmented with white (255) regions representing aggregate or granular material, grey (151) regions representing biopolymer, and black regions representing voids. 
 
+```python
+# ---------------- DATASETS ---------------- #
+# Please load in the image set you would like to calculate the statistical 
+# descriptors for here in the next two lines.
+
+datasets = {
+    "30 MPa data": {
+        "path": "30_MPa_output_3d_256x256_comb_remapped.tif"
+    }
+}
+```
+
+The current script will go through each image/slice in the 3D tiff that is loaded in. If you would like to run on every x slices please modify these lines from the main loop below. 
+
+```python
+    # Slice selection
+    slice_indices = list(range(0, num_slices, 1))
+    if (num_slices - 1) not in slice_indices:
+        slice_indices.append(num_slices - 1)
+```
