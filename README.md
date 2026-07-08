@@ -208,3 +208,12 @@ The current script will go through each image/slice in the 3D tiff that is loade
     if (num_slices - 1) not in slice_indices:
         slice_indices.append(num_slices - 1)
 ```
+By running the code, you will see the following output
+
+```console
+$ python process.py
+
+--- Processing 30 MPa data-1 ---
+Loaded remapped image: 30_MPa_output_3d_256x256_comb_remapped_chunk_001.tif, shape=(384, 256, 256)
+Unique values: [  0 151 255]
+```
