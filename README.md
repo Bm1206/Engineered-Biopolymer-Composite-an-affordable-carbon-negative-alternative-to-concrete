@@ -73,7 +73,7 @@ The repository includes experimental data from uniaxial compression testing and 
 | 24 | 8.4  | 3.6 | 26.11 ± 1.12 | 1.77 ± 0.02 | 2556 ± 380 | 1.58 ± 0.02 |
 | 25 | 6.0  | 6.5 | 29.71 ± 2.53 | 1.81 ± 0.02 | 2520 ± 448 | 1.58 ± 0.02 |
 
-## MicroCT Image Data: :microscope: 
+## MicroCT Image Data: 
 The internal structure of Engineered Biopolymer Composite (EBC) was examined using X-ray micro-computed tomography (microCT), which distinguishes regions of the specimen based on X-ray attenuation. Scans were acquired at a voxel size of 1.71 μm using a Zeiss Versa XRM500 3D X-ray microscope operating at 60 kV and 7 W. With this image acquisition technique, we acquired approximately 1000 slice images through the central portion of the specimen to avoid edge artifacts. Segmentation of the resulting slice images into aggregate, biopolymer, and void regions was performed with Dragonfly, using a fully convolutional densely connected network (FC-DenseNet) for accurate voxel classification.
 
 <p align="center">
@@ -174,7 +174,7 @@ In this repository, three different scripts have been provided for the following
 2. Calculating the statistical descriptors from segemented microCT images
 3. Calculating the carbon footprint of manufacturing EBC worldwide.
    
-### 1. Developing the design guide for predicing compressive strength of EBC
+### 1. Developing the design guide for predicting compressive strength of EBC
 
 ***This description refers to the script*** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
 
