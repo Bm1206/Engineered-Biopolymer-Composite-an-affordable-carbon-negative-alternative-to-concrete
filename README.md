@@ -6,9 +6,9 @@
 
 ***For more detailed information please see*** -->  [Supplementary Material.pdf](Supplementary%20Material.pdf) :page_facing_up:
 
-This repository contains data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data (i.e., experimental results, microstructural data, etc.) that were used for our study. Additional data is included in our Supplementary Material file entitled, "Supplementary Material.pdf" , which goes into greater detail regarding the design, manufacture, experimental procedure, and techno-economic life cycle assessment conducted in the study. Other data that is important to the paper is provided as Extended Data Figures and Extended Data Tables, which complement the main figures of the paper. 
+This repository contains code and data related to the publication entitled "Engineered Biopolymer Composite, an affordable carbon-negative alternative to concrete." Included here are all data and code (i.e., experimental results, microstructural data, etc.) that were used for our study. Additional data is included in our Supplementary Material file entitled, "Supplementary Material.pdf" , which goes into greater detail regarding the design, manufacture, experimental procedure, and techno-economic life cycle assessment conducted in the study. Other data that is important to the paper is provided as Extended Data Figures and Extended Data Tables, which complement the main figures of the paper. 
 
-# Premise of Study: :seedling:
+# Premise of Study: 
 
 <p align="center">
   <img src="Repository%20Images/EBC_Overview_Image.png" alt="EBC Overview" width="1000">
