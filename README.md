@@ -177,9 +177,13 @@ In this repository, three different scripts have been provided for the following
    
 ### 1. Developing the design guide for predicing compressive strength of EBC
 
+***This description refers to the script*** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
+
 A supervised deep learning model was developed to predict the compressive strength of EBC from the mass fractions of lignin and methyl cellulose. The model uses a feedforward neural network with three hidden layers (64, 32, and 16 neurons) and ReLU activation functions. Training was performed using the Adam optimizer with a learning rate of 7.5 × 10⁻⁴.
 
 The input features were the lignin and methyl cellulose mass fractions, while the target variable was the measured ultimate compressive strength. Both inputs and outputs were standardized using z-score normalization before training. The dataset was split into 80% training and 20% validation sets, and the model was trained for 150 epochs with a batch size of 16. Fixed random seeds were used throughout the training process to ensure reproducibility.
+
+The code script loads in "", which contains the compressive strength of all tested specimens across the 25 different mix designs
 
 ### 2. Calculating statistical descriptors from MicroCT data
 
