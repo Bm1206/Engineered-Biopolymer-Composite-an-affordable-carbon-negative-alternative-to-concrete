@@ -201,6 +201,14 @@ The input features were the lignin and methyl cellulose mass fractions, while th
 
 The code script loads in "Compressive_data_LIG.xlsx", which contains the compressive strength of all tested specimens across the 25 different mix designs, and uses the data to train and produce the contour plot in Figure 2 of the paper. 
 
+<p align="center">
+  <img src="Repository%20Images/EBC_Design_Guide.png" alt="EBC Design Guide" width="700">
+</p>
+
+<p align="center">
+  <sub><b>Figure 7.</b> <i>Design guide for predicting compressive strength of Engineered Biopolymer Composite based on lignin and methyl cellulose content. Higher methyl cellulose content, and to a lesser extent, higher lignin content, correlate with increased compressive strength.</i></sub>
+</p>
+
 ### 2. Calculating statistical descriptors from MicroCT data
 
 ***This description refers to the script*** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
