@@ -178,11 +178,28 @@ In this repository, three different scripts have been provided for the following
 
 ***This description refers to the script*** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
 
-A supervised deep learning model was developed to predict the compressive strength of EBC from the mass fractions of lignin and methyl cellulose. The model uses a feedforward neural network with three hidden layers (64, 32, and 16 neurons) and ReLU activation functions. Training was performed using the Adam optimizer with a learning rate of 7.5 × 10⁻⁴.
+A supervised deep learning model was developed to predict the compressive strength of EBC from the mass fractions of lignin and methyl cellulose. The model uses a feedforward neural network with three hidden layers (64, 32, and 16 neurons) and ReLU activation functions (shown below in the following block of code. Training was performed using the Adam optimizer with a learning rate of 7.5 × 10⁻⁴.
+
+```python
+# === Model parameters ===
+best_lr = 0.00075
+num_epochs = 150
+batch_size = 16
+
+# === Build and train model ===
+set_seeds(42)
+model = Sequential([
+    Dense(32, activation='relu', input_shape=(2,)),
+    Dense(32, activation='relu'),
+    Dense(16, activation='relu'),
+    Dense(1)
+])
+model.compile(optimizer=Adam(learning_rate=best_lr), loss='mse')
+```
 
 The input features were the lignin and methyl cellulose mass fractions, while the target variable was the measured ultimate compressive strength. Both inputs and outputs were standardized using z-score normalization before training. The dataset was split into 80% training and 20% validation sets, and the model was trained for 150 epochs with a batch size of 16. Fixed random seeds were used throughout the training process to ensure reproducibility.
 
-The code script loads in "", which contains the compressive strength of all tested specimens across the 25 different mix designs
+The code script loads in "Compressive_data_LIG.xlsx", which contains the compressive strength of all tested specimens across the 25 different mix designs, and uses the data to train and produce the contour plot in Figure 2 of the paper. 
 
 ### 2. Calculating statistical descriptors from MicroCT data
 
