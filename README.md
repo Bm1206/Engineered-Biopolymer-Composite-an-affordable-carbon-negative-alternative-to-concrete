@@ -176,7 +176,7 @@ In this repository, three different scripts have been provided for the following
    
 ### 1. Developing the design guide for predicting compressive strength of EBC
 
-***This description refers to the script*** → [Statistical_Descriptor_Calculator.py](Code/Statistical%20Descriptors/Statistical_Descriptor_Calculator.py)
+***This description refers to the script*** → [EBC_Design_Guide.py](Code/EBC%20Design%20Guide/EBC_Design_Guide.py)
 
 A supervised deep learning model was developed to predict the compressive strength of EBC from the mass fractions of lignin and methyl cellulose. The model uses a feedforward neural network with three hidden layers (64, 32, and 16 neurons) and ReLU activation functions (shown below in the following block of code. Training was performed using the Adam optimizer with a learning rate of 7.5 × 10⁻⁴.
 
