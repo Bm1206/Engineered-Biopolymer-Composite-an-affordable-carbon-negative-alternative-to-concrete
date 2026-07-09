@@ -95,7 +95,7 @@ ax_map.set_ylabel("Latitude", fontsize=28)
 ax_map.tick_params(axis='both', which='major', labelsize=24)
 ax_map.set_ylim(-60, 90)
 
-# Example cost data for selected countries
+# Cost data per country, with material being EBC and concrete representing the typical costs of concrete available on the market in the given country
 cost_data = {
     'China': {'material': 212, 'concrete': 240},
     'United States of America': {'material': 289, 'concrete': 408},
