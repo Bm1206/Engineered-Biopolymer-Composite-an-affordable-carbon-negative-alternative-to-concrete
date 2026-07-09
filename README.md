@@ -199,7 +199,7 @@ model.compile(optimizer=Adam(learning_rate=best_lr), loss='mse')
 
 The input features were the lignin and methyl cellulose mass fractions, while the target variable was the measured ultimate compressive strength. Both inputs and outputs were standardized using z-score normalization before training. The dataset was split into 80% training and 20% validation sets, and the model was trained for 150 epochs with a batch size of 16. Fixed random seeds were used throughout the training process to ensure reproducibility.
 
-The code script loads in "Compressive_data_LIG.xlsx", which contains the compressive strength of all tested specimens across the 25 different mix designs, and uses the data to train and produce the contour plot in Figure 2 of the paper. 
+The code script loads in [Compressive_data_LIG.xlsx](Code/EBC%20Design%20Guide/Compressive_data_LIG.xlsx), which contains the compressive strength of all tested specimens across the 25 different mix designs, and uses the data to train and produce the contour plot in Figure 2 of the paper. 
 
 ### 2. Calculating statistical descriptors from MicroCT data
 
