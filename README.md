@@ -202,7 +202,7 @@ The input features were the lignin and methyl cellulose mass fractions, while th
 The code script loads in "Compressive_data_LIG.xlsx", which contains the compressive strength of all tested specimens across the 25 different mix designs, and uses the data to train and produce the contour plot in Figure 2 of the paper. 
 
 <p align="center">
-  <img src="Repository%20Images/EBC_Design_Guide.png" alt="EBC Design Guide" width="700">
+  <img src="Repository%20Images/EBC_Design_Guide.png" alt="EBC Design Guide" width="500">
 </p>
 
 <p align="center">
